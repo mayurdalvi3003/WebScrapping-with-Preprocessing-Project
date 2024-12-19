@@ -72,7 +72,7 @@ This project involves web scraping baggage allowance information from the Qatar 
 
 - Install required Python libraries:
 
-pip install pandas selenium beautifulsoup4 webdriver-manager
+`pip install pandas selenium beautifulsoup4 webdriver-manager`
 
 ### 2.Web Scraping:
 
