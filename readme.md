@@ -8,35 +8,35 @@ This project involves web scraping baggage allowance information from the Qatar 
 
 ### 1. Web Scraping:
 
-Uses Selenium to handle dynamic content loading.
+- Uses Selenium to handle dynamic content loading.
 
-Extracts HTML content after JavaScript-rendered tables are fully loaded.
+- Extracts HTML content after JavaScript-rendered tables are fully loaded.
 
-Parses HTML content using BeautifulSoup to locate and extract tables.
+- Parses HTML content using BeautifulSoup to locate and extract tables.
 
 ### 2. Data Preprocessing:
 
-Cleans and standardizes data for better usability.
+- Cleans and standardizes data for better usability.
 
-Handles missing data and ensures consistent formatting.
+- Handles missing data and ensures consistent formatting.
 
-Creates structured JSON outputs for each baggage class.
+- Creates structured JSON outputs for each baggage class.
 
 ### 3. Output Files:
 
-Table 1: table_1_data.csv
+- Table 1: table_1_data.csv
 
-Table 2: table_2_data.csv
+- Table 2: table_2_data.csv
 
-Table 3: table_3_data.csv
+- Table 3: table_3_data.csv
 
-Table 4: table_4_data.csv
+- Table 4: table_4_data.csv
 
-Preprocessed Economy Class: Economy_Class_Updated.json
+- Preprocessed Economy Class: Economy_Class_Updated.json
 
-Preprocessed Business Class: Business_Class_Updated.json
+- Preprocessed Business Class: Business_Class_Updated.json
 
-Preprocessed First Class: First_Class_Updated.json
+- Preprocessed First Class: First_Class_Updated.json
 
 ## File Structure
 
@@ -60,11 +60,11 @@ Preprocessed First Class: First_Class_Updated.json
 
 ### 2. Processed JSONs:
 
-Economy_Class_Updated.json
+- Economy_Class_Updated.json
 
-Business_Class_Updated.json
+- Business_Class_Updated.json
 
-First_Class_Updated.json
+- First_Class_Updated.json
 
 ## Workflow
 
@@ -76,11 +76,11 @@ pip install pandas selenium beautifulsoup4 webdriver-manager
 
 ### 2.Web Scraping:
 
-Execute `Web Scrapping Code.py` to scrape and save data tables as raw CSV files.
+- Execute `Web Scrapping Code.py` to scrape and save data tables as raw CSV files.
 
 ### 3.Preprocessing:
 
-Run `Web Scrapping Preprocessing by mayur.ipynb` to clean and transform raw CSVs into structured JSON files.
+- Run `Web Scrapping Preprocessing by mayur.ipynb` to clean and transform raw CSVs into structured JSON files.
 
 ## Example Usage
 
@@ -92,7 +92,7 @@ This saves the scraped tables as table_1_data.csv, table_2_data.csv, etc.
 
 ### Running the Preprocessing
 
-python `Web Scrapping Preprocessing by mayur.ipynb`
+- python `Web Scrapping Preprocessing by mayur.ipynb`
 
 This generates structured JSON files for economy, business, and first-class baggage allowances.
 
