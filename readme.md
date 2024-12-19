@@ -109,3 +109,11 @@ This generates structured JSON files for economy, business, and first-class bagg
 - The project efficiently scrapes dynamic web content and converts it into useful data formats.
 
 - Preprocessed datasets are ready for further analysis or integration with other systems
+## Welcome to our project 
+Thank you for your interest in contributing!
+
+We value collaboration and welcome developers of all levels to help improve this project.
+
+Check the contribution guide to get started.
+Explore open issues to find tasks you’d like to work on.
+Let’s build something great together.
